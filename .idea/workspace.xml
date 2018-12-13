@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/eurekaserver" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Ali-Snobba" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../LaithThanksgiving" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../blaise-pascal-guard" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../blaise-pascal-notify" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../gs-actuator-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../gs-actuator-service1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../notify" value="PREVIEW" />
+        <entry key="$USER_HOME$/gmdb-new" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
