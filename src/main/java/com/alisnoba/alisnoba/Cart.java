@@ -20,17 +20,25 @@ public class Cart {
                 .map((i) -> String.format("%s - %s", item.getProduct().getName(), item.getQuantity())).collect(Collectors.toList());
     }
 
-    public int getTotalPrice() {
-        return items.stream()
-                .map(LineItem::getSubTotal)
-                .reduce(new int(0), int::add);
+
+    public LineItem addQuantity(Product product) {
+        LineItem prod = items.stream()
+                .filter(p -> product.equals(p)).findFirst().get();
+        prod.setQuantity(prod.getQuantity()+1);
+        return prod;
     }
 
-    public LineItem addQuantity(Product product, int quantity) {
+    public LineItem removeQuantity(Product product) {
         LineItem prod = items.stream()
-                .filter(p -> product.equals(p)).findFirst()
-        return LineItem;
+                .filter(p -> product.equals(p)).findFirst().get();
+        if(prod.getQuantity() == 0){
 
+        }
+        else{
+            prod.setQuantity(prod.getQuantity()-1);
+        }
+
+        return prod;
     }
 
 
